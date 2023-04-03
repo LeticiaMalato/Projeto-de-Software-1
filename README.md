@@ -1,1 +1,3 @@
 # Projeto-de-Software-1
+
+  Esse projeto é um programa contendo dois jogos nos quais o usuário tem como opções de jogar. O primeiro é um jogo de conhecimentos gerais de perguntas e respostas que obtém 5 perguntas a serem respondidadas, o segundo jogo é um jogo de sorte que tem como contexto a prisão do usuário e do seu amigo após apertar por engano um botão, o objetivo do jogo é acertar em qual das cinco caixas presentes está a chave para sairem do local, mas, em contra partida, têm que ter cuidado na escolha, pois em uma das caixas há uma cobra preparada para atacar. Após a finalização do jogo, o jogador pode escolher entre jogar novamente e voltar ao menu.
