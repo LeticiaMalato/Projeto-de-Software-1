@@ -2,10 +2,6 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <time.h>
-// TITULO DO JOGO
-// 1: Pergunta e resposta
-// 2: Cobra na caixa!
-// 3: Sair.
 
 int jogarPerguntaReposta()
 {
@@ -17,10 +13,10 @@ int jogarPerguntaReposta()
   {
     printf("Você tem 5 perguntas para responder \n");
     printf("1- Qual deles não é filho do Michael Jackson? \n");
-    printf("1- Paris 2- Prince 3- Michael Jr 4- Bruno Mars 5- Joe \n");
+    printf("1- Joe 2- Prince 3- Michael Jr 4- Bruno Mars  \n");
     scanf("%d", &answers);
 
-    if (answers == 5)
+    if (answers == 1)
     {
       printf("Parabens!!! Você acertou\n");
     }
@@ -31,7 +27,7 @@ int jogarPerguntaReposta()
     }
 
     printf("2- Qual o grupo em que todas as palavras foram escritas corretamente?\n");
-    printf("1- Asterístico, beneficiente, meteorologia, entertido\n 2-Asterisco, beneficente, meteorologia, entretido\n3 Asterisco, beneficente, metereologia, entretido\n 4-Asterístico, beneficiente, metereologia, entretido\n5- Asterisco, beneficiente, metereologia, entretido\n");
+    printf("1- Asterístico, beneficiente, meteorologia, entertido\n 2-Asterisco, beneficente, meteorologia, entretido\n3 Asterisco, beneficente, metereologia, entretido\n 4-Asterístico, beneficiente, metereologia, entretido\n");
 
     scanf("%d", &answers);
 
@@ -45,7 +41,7 @@ int jogarPerguntaReposta()
     }
 
     printf("3- Atualmente, quantos elementos químicos a tabela periódica possui?\n ");
-    printf("1- 113\n 2- 109\n3- 108\n4-118\n5-92\n ");
+    printf("1- 113\n 2- 109\n3- 108\n4-118\n");
     scanf("%d", &answers);
 
     if (answers == 1)
@@ -55,6 +51,33 @@ int jogarPerguntaReposta()
     else
     {
       printf("Resposta incorrta! Resposta certa é: numero 1\n");
+
+      break;
+    }
+
+    printf("4-Que líder mundial ficou conhecida como “Dama de Ferro”?\n ");
+    printf("1-Christine Lagarde 2-Angela Merkel 3-Margaret Thatcher 4-Hillary Clinton");
+    scanf("%d", &answers);
+    if (answers == 3)
+    {
+      printf("Parabéns!!! voce acertou");
+    }
+    else
+    {
+      printf("Resposta incorrta! Resposta certa é: numero 5\n");
+
+      break;
+    }
+    printf("5-Qual desses filmes foi baseado na obra de Shakespeare?\n ");
+    printf("1- Muito Barulho por Nada (2012)\n 2-Capitães de Areia (2011)\n3- A Dama das Camélias (1936)\n4-A Revolução dos Bichos (1954)\n");
+    scanf("%d", &answers);
+    if (answers == 1)
+    {
+      printf("Parabéns!!! voce acertou");
+    }
+    else
+    {
+      printf("Resposta incorrta! Resposta certa é: numero 5\n");
 
       break;
     }
